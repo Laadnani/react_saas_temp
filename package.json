@@ -1,7 +1,7 @@
 {
   "name": "react-saas-template",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "homepage": "",
   "description": "Template for building an SaaS/admin application using React + Material-UI",
   "dependencies": {
@@ -46,13 +46,10 @@
     "@testing-library/user-event": "^13.2.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [
